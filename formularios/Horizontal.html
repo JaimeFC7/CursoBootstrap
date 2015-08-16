@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Formularios [Horizontal] - Vídeo 05</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<!--Bootstrap-->
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<!-- Optional theme --> 
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+</head>
+<body>
+	<!--Scripts-->
+		<!--JQuery-->
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+	<!--Container-->
+		<div class="container">
+			<br/>
+			<!--Fieldset-->
+				<fieldset> <!--disabled deshabilita todo, podemos ponerlo en distintas etiquetas como atributos-->
+				<!--Form-->
+					<form action="" class="form-horizontal">
+						<!--Form-group Nombre input-->
+							<div class="form-group has-success"> <!--Acierto-->
+								<label for="nombre" class="control-label col-md-2">Nombre:</label>
+								<div class="col-md-10">
+									<input type="text" class="form-control" id="nombre" placeholder="Nombre">
+								</div>
+							</div>
+
+						<!--Form-group Nombre label-->
+							<div class="form-group has-warning"> <!--Advertencia-->
+								<label for="nombre" class="control-label col-md-2">Nombre:</label>
+								<div class="col-md-10">
+									<p class="form-control-static">Nombre y Apellidos</p>
+								</div>
+							</div>
+
+						<!--Form-group Correo-->
+							<div class="form-group has-error"><!--Error-->
+								<label for="correo" class="control-label col-md-2">Correo:</label>
+								<div class="col-md-10">
+									<input type="text" class="form-control" id="correo" placeholder="Correo">
+								</div>
+							</div>
+
+						<!--Form-group Checkbox-->
+							<div class="form-group has-success">
+								<div class="checkbox col-md-2 col-md-offset-2">
+									<label>
+										<input type="checkbox">Recuérdame
+									</label>
+								</div>
+							</div>
+
+						<!--Form-group Button-->
+							<div class="form-group">
+								<div class="col-md-2 col-md-offset-2">
+									<button class="btn btn-primary">Enviar</button>
+									<a class="btn btn-link" href="Controles.html">Controles</a>
+								</div>
+							</div>
+					</form>
+				</fieldset>
+		</div>
+</body>
+</html>
