@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Web - Proyecto Final</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<!--Bootstrap-->
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<!-- Optional theme 
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"> -->
+
+	<!--CSS propio-->
+		<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+	<!--Header-->
+		<header>
+			<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+				<div class="container">
+					<!--Navbar header-->
+						<div class="navbar-header">
+							<!--Botón responsive-->
+								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navegacion">
+									<span class="sr-only">Desplegar/Ocultar Menú</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+
+							<!--Título de la barra-->
+								<a href="#" class="navbar-brand">Web Proyecto</a>
+						</div>
+
+					<!--Menú-->
+						<div class="collapse navbar-collapse" id="navegacion">
+							<!--Menú navegación-->
+								<ul class="nav navbar-nav">
+									<li class="active"><a href="#">Inicio</a></li>
+									<li class="dropdown">
+										<!--Título dropdown-->
+											<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
+												Categorías <span class="caret"></span>
+											</a>
+
+										<!--Submenú dropdown-->
+											<ul class="dropdown-menu" role="menu">
+												<li><a href="#">Categoría nº1</a></li>
+												<li class="divider"></li>
+												<li><a href="#">Categoría nº2</a></li>
+												<li><a href="#">Categoría nº3</a></li>
+												<li><a href="#">Categoría nº4</a></li>
+											</ul>
+									</li>
+									<li><a href="#">Blog</a></li>
+									<li><a href="#">Contacto</a></li>
+								</ul>
+
+							<!--Buscador-->
+								<form action="" class="navbar-form navbar-right" role="search">
+									<div class="input-group">
+										<!--Barra de búsqueda-->
+											<span class="sr-only">Buscador</span>
+											<input type="text" class="form-control" placeholder="Buscar...">
+
+										<!--Botón-->
+											<span class="input-group-btn">
+												<button class="btn btn-primary" type="button">
+													<span class="glyphicon glyphicon-search"></span>
+												</button>
+											</span>
+									</div>
+								</form>
+						</div>
+				</div>
+			</nav>
+		</header>
+		
+		<!--Jumbotron-->
+			<section class="jumbotron jumbotron">
+				<div class="container">
+					<h1 class="titulo-blog">Página de prueba</h1>
+					<p>Web de prueba para finalizar el curso</p>
+				</div>
+			</section>
+
+
+	<!--Container-->
+		<section class="main container">
+			<div class="row"> <!--Row 1-->
+				<!--Cuerpo principal-->
+					<section class="posts col-md-9"> <!--Col 1.1-->
+						<!--Breadcrumbs-->
+							<div class="migas">
+								<ol class="breadcrumb">
+									<li><a href="#">Inicio</a></li>
+									<li><a href="#">Categorías</a></li>
+									<li class="active">Categoría nº1</li>
+								</ol>
+							</div>
+
+						<!--Artículos-->
+							<!--Artículo 1-->
+								<article class="post clearfix">
+									<!--Imagen-->
+										<a href="#" class="thumb pull-left">
+											<img class="img-thumbnail" src="http://lorempixel.com/880/440/technics/" alt="">
+										</a>
+
+									<!--Título-->
+									<h2 class="post-title">
+										<a href="#">Título del primer artículo</a>
+									</h2>
+
+									<!--Fecha y autor-->
+										<p>
+											<span class="post-fecha">14 de Agosto de 2015 </span> 
+											por 
+											<span class="post-autor"><a href="#">Autor</a></span>
+										</p>
+
+									<!--Contenido-->
+										<p class="post-contenido text-justify">
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem deserunt consectetur laudantium hic, animi, architecto iusto est veniam eum nulla quasi vitae dolor magni soluta, voluptatum facilis porro odio dolores rerum eaque! Repudiandae ullam beatae sequi iure ea fugiat esse iste sit accusamus provident aperiam optio aut maxime eum velit, vero explicabo, odit recusandae voluptas inventore. Dolore, in pariatur doloremque labore totam omnis? Vero necessitatibus corrupti ullam eveniet vitae qui nobis iste labore, ipsum earum accusamus, explicabo deleniti tempora quam, repellendus! Praesentium non repellat quos expedita ut, dolorum id eveniet ab dignissimos deleniti ex nisi dolores, quisquam quia, nostrum explicabo.
+										</p>
+
+									<!--Botones-->
+										<div class="contenedor-botones">
+											<a href="#" class="btn btn-primary">Leer más</a>
+											<a href="#" class="btn btn-success">Comentarios <span class="badge">12</span></a>
+										</div>
+								</article>
+
+							<!--Artículo 2-->
+								<article class="post clearfix">
+									<!--Imagen-->
+										<a href="#" class="thumb pull-left">
+											<img class="img-thumbnail" src="http://lorempixel.com/880/440/city/" alt="">
+										</a>
+
+									<!--Título-->
+									<h2 class="post-title">
+										<a href="#">Título del segundo artículo</a>
+									</h2>
+
+									<!--Fecha y autor-->
+										<p>
+											<span class="post-fecha">10 de Agosto de 2015 </span> 
+											por 
+											<span class="post-autor"><a href="#">Autor</a></span>
+										</p>
+
+									<!--Contenido-->
+										<p class="post-contenido text-justify">
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, culpa. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, delectus, totam. Perferendis, ex, corporis amet sint voluptas similique, laboriosam blanditiis debitis placeat quibusdam neque assumenda libero nihil. Pariatur in labore, iusto nisi dolorem, sunt illum voluptatibus enim ut delectus harum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora magnam, fugit, at odio incidunt, sapiente placeat iure repellat porro illum provident aliquam non impedit labore quis, nihil praesentium. Nesciunt, nemo!
+										</p>
+
+									<!--Botones-->
+										<div class="contenedor-botones">
+											<a href="#" class="btn btn-primary">Leer más</a>
+											<a href="#" class="btn btn-success">Comentarios <span class="badge">17</span></a>
+										</div>
+								</article>
+
+							<!--Artículo 3-->
+								<article class="post clearfix">
+									<!--Imagen-->
+										<a href="#" class="thumb pull-left">
+											<img class="img-thumbnail" src="http://lorempixel.com/880/440/business/" alt="">
+										</a>
+
+									<!--Título-->
+									<h2 class="post-title">
+										<a href="#">Título del tercer artículo</a>
+									</h2>
+
+									<!--Fecha y autor-->
+										<p>
+											<span class="post-fecha">4 de Agosto de 2015 </span> 
+											por 
+											<span class="post-autor"><a href="#">Autor</a></span>
+										</p>
+
+									<!--Contenido-->
+										<p class="post-contenido text-justify">
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi molestias error itaque vero reiciendis consectetur. Voluptate nisi molestias reprehenderit consequuntur! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad magni pariatur nisi, neque placeat cum obcaecati ipsa recusandae quisquam unde! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse sunt soluta fugit ut perferendis sit veritatis iure impedit recusandae ratione. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium facere esse dolor saepe laborum at, provident temporibus consequuntur reiciendis non!
+										</p>
+
+									<!--Botones-->
+										<div class="contenedor-botones">
+											<a href="#" class="btn btn-primary">Leer más</a>
+											<a href="#" class="btn btn-success">Comentarios <span class="badge">31</span></a>
+										</div>
+								</article>
+
+						<!--Paginación-->
+							<nav>
+								<div class="center-block">
+									<ul class="pagination">
+										<li class="disabled"><a href="#">&laquo; <span class="sr-only">Anterior</span></a></li>
+										<li class="active"><a href="#">1</a></li>
+										<li><a href="#">2</a></li>
+										<li><a href="#">3</a></li>
+										<li><a href="#">4</a></li>
+										<li><a href="#">5</a></li>
+										<li><a href="#">6</a></li>
+										<li><a href="#">&raquo; <span class="sr-only">Siguiente</span></a></li>
+									</ul>
+								</div>
+							</nav>
+					</section>
+
+				<!--Sidebar-->
+					<aside class="col-md-3 hidden-xs hidden-sm">
+						<!--Categorías-->
+								<div class="categorias">
+								<h3>Categorías</h3>
+								<div class="list-group">
+									<a href="#" class="list-group-item active">Categoría nº1</a>
+									<a href="#" class="list-group-item">Categoría nº2</a>
+									<a href="#" class="list-group-item">Categoría nº3</a>
+									<a href="#" class="list-group-item">Categoría nº4</a>
+									<a href="#" class="list-group-item">Categoría nº5</a>
+									<a href="#" class="list-group-item">Categoría nº6</a>
+								</div>
+							</div>
+
+						<!--Artículos recientes-->
+							<div class="recientes">
+								<h3>Artículos recientes</h3>
+								<a href="#" class="list-group-item">
+									<h4 class="list-group-item-heading">Título del primer artículo</h4>
+									<p class="list-group-item-text text-justify">
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel esse officiis, magnam accusantium, quisquam sed aspernatur reiciendis repellat iure porro.
+									</p>
+								</a>
+								<a href="#" class="list-group-item">
+									<h4 class="list-group-item-heading">Título del segundo artículo</h4>
+									<p class="list-group-item-text text-justify">
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, minus soluta quod numquam veniam, eveniet? 
+									</p>
+								</a>
+								<a href="#" class="list-group-item">
+									<h4 class="list-group-item-heading">Título del tercer artículo</h4>
+									<p class="list-group-item-text text-justify">
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste hic reiciendis, adipisci ab, minima, iure accusantium, tempore laudantium quod ipsa consectetur nemo! Rem, excepturi, quidem?
+									</p>
+								</a>
+							</div>
+						
+					</aside>
+			</div>
+		</section>
+
+	<!--Footer-->
+		<footer>
+			<div class="container">
+				<div class="row"> <!--Row 2-->
+					<div class="col-xs-4"> <!--Col 2.1-->
+						<p>Jaime Fernández - Bootstrap</p>
+					</div>
+					<div class="col-xs-8"> <!--Col 2.2-->
+						<ul class="list-inline text-right">
+							<li><a href="#">Inicio</a></li>
+							<li><a href="#">Opiniones</a></li>
+							<li><a href="#">Contacto</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+	<!--Scripts-->
+		<!--JQuery-->
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+</html>

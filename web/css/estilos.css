@@ -1,0 +1,153 @@
+/* -- HEADER -- */ 
+
+.navbar{
+	margin-bottom: 0px;
+}
+
+.btn-search{
+	margin-left: -5px;
+}
+
+.jumbotron{
+	background: #454161;
+	color: #fff;
+	padding: 20px 0;
+}
+
+.jumbotron h1{
+	font-size: 45px;
+}
+
+.jumbotron p{
+	font-size: 20px;
+}
+
+
+/* -- POST -- */
+
+.main{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.breadcrumb > .active{
+	font-weight: bold;
+}
+
+.posts .center-block .active a{
+	background: #454161;
+	border-color: #454161;
+	font-weight: bold;
+}
+
+.post{
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #999;
+}
+
+.post h2{
+	margin-top: 0px;
+}
+
+.post .post-title a{
+	color: #333;
+}
+
+.post .post-title a:hover{
+	color: #514D6E;
+	text-decoration: none;
+}
+
+.post p .post-fecha{
+	font-style: italic;
+}
+
+.post p .post-autor{
+	font-style: italic;
+}
+
+.post .thumb{
+	margin-right: 10px;
+	width:40%;
+}
+
+.post .thumb img{
+	width:100%;
+}
+
+.post .contenedor-botones{
+	width:100%;
+}
+
+.post .contenedor-botones .btn{
+	font-weight: bold;
+}
+
+.post .contenedor-botones .btn-primary:hover{
+	color: #6B6B6B;
+}
+
+.post .contenedor-botones .btn-primary{
+	background: #454161;
+	border-color: #454161;
+}
+
+.categorias .list-group-item.active{
+	background: #454161;
+	border-color: #454161;
+	font-weight: bold;
+}
+
+.categorias .list-group-item.active:hover{
+	background: #454161;
+	border-color: #454161;
+	font-weight: bold;
+}
+
+.categorias .list-group-item:hover{
+	font-weight: bold;
+}
+
+.recientes .list-group-item-heading{
+	font-size: 18px;
+}
+
+
+/* -- FOOTER -- */
+
+footer{
+	background: #454161;
+	color: #fff;
+	height: 40px
+}
+
+footer .container{
+	padding-top: 10px;
+}
+
+footer .container .col-xs-4{
+	font-size: 14px;
+	font-weight: bold;
+	font-style: italic;
+}
+
+footer .container .col-xs-8 a{
+	font-size: 14px;
+	font-weight: bold;
+	color: #fff;
+}
+footer .container .col-xs-8 a:hover{
+	color: #6B6B6B;
+	text-decoration: none;
+}
+
+
+/* -- Media Query -- */
+@media screen and (max-width: 768px){
+	.post .thumb{
+		width: 100%;
+		margin-bottom: 20px;
+		margin-right: 0px;
+	}
+}
